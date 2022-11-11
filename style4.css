@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(148, 30, 30);
+    padding: 0 7px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 10px #464646;
+}
+
+nav, ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 5px 20px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+.corpo {
+    background-color: rgb(255, 246, 246);
+}
+
+#titulo {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+hr {
+    border-color: rgb(153, 0, 0);
+}
+
+h2 {
+    text-align: center;
+}
+
+.texto {
+    width: 70%;
+    text-align: justify;
+    margin: 0 auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+/* FORMULÁRIO */
+
+.quadrante {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(129, 129, 129);
+    outline: none;
+    color: rgb(153, 0, 0); 
+    font-size: 15px;
+    width: 500px;
+}
+
+#botao {
+    background-color: rgb(153, 0, 0); 
+    color: white; 
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+#botao:hover {
+    background-color: rgb(177, 80, 80); 
+
+}
+
+
+.caixaform {
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 500px;
+    border: 8px;
+    border-radius: 20px;
+}
+
+#conteudo {
+    margin-left: 40px;
+}
+
+#cadastro {
+    margin-right: 50px;
+
+}
+
+
+
+footer {
+    padding: 10px;
+    background-color: rgb(148, 30, 30);
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0px 2px 10px #464646;
+}
+
+.icones {
+    width: 30px;
+    margin-left: 2%
+}
+
+#siga {
+    margin-top: 5%;
+}
+
+#mapa1 {
+    padding-top: 2%;
+}
+
+#mapa {
+    margin-right: 60%;
+    list-style: none;
+}
+
+#mapa2 {
+    margin-top: -10%;
+}
+
+#mapa3 {
+    margin-left: 60%;
+    list-style: none;
+}
+
+#info {
+    margin-top: -28%;
+    width: 7%;
+}
+
+#cookies {
+    font-size: 13px;
+}
+
